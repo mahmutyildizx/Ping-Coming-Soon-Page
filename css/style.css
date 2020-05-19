@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Franklin:300,600,700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Libre Franklin', sans-serif;
+
+}
+
+h1 {
+    text-align: center;
+    color: hsl(0, 0%, 59%);
+    font-weight: 300;
+    margin-top: 50px;
+    font-size: 50px;
+}
+strong {
+    color: hsl(209, 33%, 12%);
+}
+p {
+    text-align: center;
+    font-size: 25px;
+    color: hsl(209, 33%, 12%);
+    margin-top: 20px;
+}
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    width: 410px;
+    height: 50px;
+    border-radius: 50px;
+    border: 1px solid hsl(223, 100%, 88%);
+    outline: none;
+   
+}
+input[placeholder] {
+	padding-left: 30px;
+}
+
+input::placeholder {
+	color: hsl(223, 100%, 88%);
+}
+input.error {
+	border-color: hsl(354, 100%, 66%);
+}
+
+input.error::placeholder {
+	color: hsl(354, 100%, 66%);
+}
+
+button {
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: hsl(223, 87%, 63%);
+    box-shadow: 0 5px 5px hsl(223, 100%, 88%);
+    color: #fff;
+    outline: none;
+    margin-top: 30px;
+    margin-left: 20px;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    opacity: 0.7;
+}
+
+footer {
+    text-align: center;
+    color: hsl(0, 0%, 59%);
+    font-size: 15px;
+    margin: 20px 0px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 30px auto;
+
+}
+.logo {
+    margin: auto;
+    display: block;
+}
+
+.formAdress {
+    margin-top: 30px;
+}
+
+.error {
+    color: hsl(354, 100%, 66%);
+}
+
+.illustration {
+    max-width: 650px;
+    margin: 70px auto;
+    display: block;
+}
+.social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.icons {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.icons:hover {
+    background-color: hsl(223, 87%, 63%);
+	border-color: hsl(223, 87%, 63%);
+    color: #fff;
+    opacity: 0.7;
+}
+
+@media screen and (max-width: 576px) {
+    h1 {
+        font-size: 24px;
+    }
+    p {
+        font-size: 18px;
+    }
+    form {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .formAdress input {
+        width: 335px;
+    }
+    button {
+        width: 90%;
+        margin: 15px auto;
+    }
+    .illustration {
+        width: 100%;
+    }
+}
