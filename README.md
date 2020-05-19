@@ -1,5 +1,7 @@
 # Frontend Mentor - Ping coming soon page
 
+Please visit https://mahmuttyildiz.github.io/Ping-Coming-Soon-Page/ for review.
+
 ![Design preview for the Ping coming soon page coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
